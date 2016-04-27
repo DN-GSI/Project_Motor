@@ -1,0 +1,9 @@
+*.aliases
+*.lvlps
+<<<<<<< HEAD
+*.bak
+*.tmp
+~$*
+=======
+*.bak
+>>>>>>> 5abcc280d6f8c460d1fe90e9478d89116cdce5d7

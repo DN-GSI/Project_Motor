@@ -1,0 +1,45 @@
+[submodule "Packages/CSPP_Core"]
+	path = Packages/CSPP_Core
+	url = https://github.com/HB-GSI/CSPP_Core.git
+[submodule "Packages/CSPP_DeviceBase"]
+	path = Packages/CSPP_DeviceBase
+	url = https://github.com/HB-GSI/CSPP_DeviceBase.git
+[submodule "Packages/CSPP_IVI"]
+	path = Packages/CSPP_IVI
+	url = https://github.com/HB-GSI/CSPP_IVI
+[submodule "Packages/CSPP_DSC"]
+	path = Packages/CSPP_DSC
+	url = https://github.com/HB-GSI/CSPP_DSC.git
+[submodule "Packages/CSPP_DIM"]
+	path = Packages/CSPP_DIM
+	url = https://github.com/HB-GSI/CSPP_DIM.git
+[submodule "Packages/DimLVEvent"]
+	path = Packages/DimLVEvent
+	url = https://github.com/HB-GSI/DimLVEvent.git
+[submodule "Packages/CSPP_ObjectManager"]
+	path = Packages/CSPP_ObjectManager
+	url = https://github.com/HB-GSI/CSPP_ObjectManager.git
+[submodule "Packages/CSPP_Introduction"]
+	path = Packages/CSPP_Introduction
+	url=https://github.com/DN-GSI/CSPP_Introduction
+[submodule "Packages/CSPP_SimDevices"]
+	path = Packages/CSPP_SimDevices
+	url = https://github.com/DN-GSI/CSPP_SimDevices.git
+[submodule "instr.lib/NanotecSMCPD"]
+	path = instr.lib/NanotecSMCPD
+	url = https://github.com/DN-GSI/NanotecSMCPD.git
+[submodule "Packages/CSPP_Motion"]
+	path = Packages/CSPP_Motion
+	url = https://github.com/DN-GSI/CSPP_Motion.git
+[submodule "Packages/CSPP_Acquisition"]
+	path = Packages/CSPP_Acquisition
+	url = https://github.com/DN-GSI/CSPP_Acquisition.git
+[submodule "instr.lib/IEF-pac"]
+	path = instr.lib/IEF-pac
+	url = https://github.com/DN-GSI/IEF-pac.git
+[submodule "Packages/CSPP_FPGA"]
+	path = Packages/CSPP_FPGA
+	url = https://github.com/DN-GSI/CSPP_FPGA.git
+[submodule "instr.lib/NI-FPGA-PPG"]
+	path = instr.lib/NI-FPGA-PPG
+	url = https://github.com/DN-GSI/NI-FPGA-PPG.git
