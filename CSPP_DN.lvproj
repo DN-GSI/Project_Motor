@@ -133,9 +133,11 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="IEF Werner.lvlib" Type="Library" URL="../instr.lib/IEF-pac/IEF Werner.lvlib"/>
 			<Item Name="NanotecSMCPDDriver.lvlib" Type="Library" URL="../instr.lib/NanotecSMCPD/NanotecSMCPDDriver.lvlib"/>
 		</Item>
-		<Item Name="User" Type="Folder"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="DataTypeTest.vi" Type="VI" URL="../DataTypeTest.vi"/>
+			<Item Name="Engine.ico" Type="Document" URL="../Engine.ico"/>
+		</Item>
 		<Item Name="CSPP_DN.ini" Type="Document" URL="../CSPP_DN.ini"/>
-		<Item Name="DataTypeTest.vi" Type="VI" URL="../DataTypeTest.vi"/>
 		<Item Name="DN-Start.vi" Type="VI" URL="../DN-Start.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -334,6 +336,54 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="SCT Get Types.vi" Type="VI" URL="/&lt;resource&gt;/dialog/variable/SCT Get Types.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="CaveA_Motor" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{7686FE00-E05C-428D-AF85-9BBF6E0DC8AB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D6A6B5B4-4F85-449E-9DF6-5C37D8D48132}</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/CSPP_DN.ini</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A8BECA18-C3FB-435E-8B77-623196B0C3D6}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">CSPP for the motor control in CaveA at GSI</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">CaveA_Motor</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/CaveA_Motor</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{44CB2BB8-6EA8-47CD-8DB6-841A08A0BD5C}</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">CaveA_Motor.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/CaveA_Motor/CaveA_Motor.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/CaveA_Motor/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Utilities/Engine.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5C0AEDA1-76BA-4F12-A819-305F65EEB700}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DN-Start.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CSPP_Core/CS++CoreContent.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/CSPP_DN.ini</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">GSI Helmholtzzentrum für Schwerionenforschung GmbH</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">CaveA_Motor</Property>
+				<Property Name="TgtF_internalName" Type="Str">CaveA_Motor</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 GSI Helmholtzzentrum für Schwerionenforschung GmbH</Property>
+				<Property Name="TgtF_productName" Type="Str">CaveA_Motor</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5CB013FB-AD79-4DFD-BBB9-E676ADBCDEB7}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">CaveA_Motor.exe</Property>
+			</Item>
 			<Item Name="DIMTest" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{A5F051E7-1851-4873-AD84-18750884B199}</Property>
@@ -392,93 +442,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="TgtF_productName" Type="Str">DIMTest</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{40504731-9456-46F3-B6A4-6514B934C121}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DIMTest.exe</Property>
-			</Item>
-			<Item Name="MExample" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{852DC432-5467-44FF-8FFB-3A0BA88D0F9C}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{B494A8C0-E2C4-4FB2-922B-E5FFBAA20D5C}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{4261B222-BDB2-4E25-90F0-3FE12FA287B1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">MExample</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/D/builds/MExample</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{69EB2F7B-E786-41D2-AED7-D1074FD01B32}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">MExample.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/D/builds/MExample/MExample.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/D/builds/MExample/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{537D79BA-5565-4CF4-B432-BAFC1F9619C8}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/TestActor.lvlib</Property>
-				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
-				<Property Name="TgtF_companyName" Type="Str">GSI Helmholtzzentrum für Schwerionenforschung GmbH</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">MExample</Property>
-				<Property Name="TgtF_internalName" Type="Str">MExample</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 GSI Helmholtzzentrum für Schwerionenforschung GmbH</Property>
-				<Property Name="TgtF_productName" Type="Str">MExample</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{1528DDFB-3154-45E2-A23C-2E9E69D87EFF}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">MExample.exe</Property>
-			</Item>
-			<Item Name="MotorTest" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{7686FE00-E05C-428D-AF85-9BBF6E0DC8AB}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{D6A6B5B4-4F85-449E-9DF6-5C37D8D48132}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{A8BECA18-C3FB-435E-8B77-623196B0C3D6}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">MotorTest</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MotorTest</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{44CB2BB8-6EA8-47CD-8DB6-841A08A0BD5C}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">MTest.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MotorTest/MTest.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MotorTest/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6551486A-0AF8-470F-9CC4-ED56D1838BAC}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DN-Start.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CSPP_Core/CS++CoreContent.vi</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_companyName" Type="Str">GSI Helmholtzzentrum für Schwerionenforschung GmbH</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">MotorTest</Property>
-				<Property Name="TgtF_internalName" Type="Str">MotorTest</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 GSI Helmholtzzentrum für Schwerionenforschung GmbH</Property>
-				<Property Name="TgtF_productName" Type="Str">MotorTest</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{5CB013FB-AD79-4DFD-BBB9-E676ADBCDEB7}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">MTest.exe</Property>
 			</Item>
 		</Item>
 	</Item>
