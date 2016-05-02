@@ -74,6 +74,14 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 			<Item Name="CS++CoreContent.vi" Type="VI" URL="../Packages/CSPP_Core/CS++CoreContent.vi"/>
 			<Item Name="CS++CoreGUIContent.vi" Type="VI" URL="../Packages/CSPP_Core/CS++CoreGUIContent.vi"/>
 		</Item>
+		<Item Name="CSPP_DebugDevices" Type="Folder">
+			<Item Name="Actors" Type="Folder">
+				<Item Name="CS++SimMotor.lvlib" Type="Library" URL="../Packages/CSPP_DebugDevices/CSPP_SimMotor/CS++SimMotor.lvlib"/>
+				<Item Name="CS++TestMotor.lvlib" Type="Library" URL="../Packages/CSPP_DebugDevices/CSPP_TestMotor/CS++TestMotor.lvlib"/>
+			</Item>
+			<Item Name="CS++DebugDevices-Content.vi" Type="VI" URL="../Packages/CSPP_DebugDevices/CS++DebugDevices-Content.vi"/>
+			<Item Name="CS++DebugDevices.ini" Type="Document" URL="../Packages/CSPP_DebugDevices/CS++DebugDevices.ini"/>
+		</Item>
 		<Item Name="CSPP_DeviceBase" Type="Folder">
 			<Item Name="Actors" Type="Folder">
 				<Item Name="CS++DCPwr.lvlib" Type="Library" URL="../Packages/CSPP_DeviceBase/CS++DCPwr/CS++DCPwr.lvlib"/>
@@ -121,13 +129,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Item Name="CS++ObjectManager.lvlib" Type="Library" URL="../Packages/CSPP_ObjectManager/CS++ObjectManager.lvlib"/>
 			</Item>
 			<Item Name="CS++ObjectManager.ini" Type="Document" URL="../Packages/CSPP_ObjectManager/CS++ObjectManager.ini"/>
-		</Item>
-		<Item Name="CSPP_SimDevices" Type="Folder">
-			<Item Name="Actors" Type="Folder">
-				<Item Name="CS++SimMotor.lvlib" Type="Library" URL="../Packages/CSPP_SimDevices/CSPP_SimMotor/CS++SimMotor.lvlib"/>
-			</Item>
-			<Item Name="CS++SimDevices-Content.vi" Type="VI" URL="../Packages/CSPP_SimDevices/CS++SimDevices-Content.vi"/>
-			<Item Name="CS++SimDevices.ini" Type="Document" URL="../Packages/CSPP_SimDevices/CS++SimDevices.ini"/>
 		</Item>
 		<Item Name="instr.lib" Type="Folder">
 			<Item Name="IEF Werner.lvlib" Type="Library" URL="../instr.lib/IEF-pac/IEF Werner.lvlib"/>

@@ -22,9 +22,6 @@
 [submodule "Packages/CSPP_Introduction"]
 	path = Packages/CSPP_Introduction
 	url=https://github.com/DN-GSI/CSPP_Introduction
-[submodule "Packages/CSPP_SimDevices"]
-	path = Packages/CSPP_SimDevices
-	url = https://github.com/DN-GSI/CSPP_SimDevices.git
 [submodule "instr.lib/NanotecSMCPD"]
 	path = instr.lib/NanotecSMCPD
 	url = https://github.com/DN-GSI/NanotecSMCPD.git
@@ -43,3 +40,6 @@
 [submodule "instr.lib/NI-FPGA-PPG"]
 	path = instr.lib/NI-FPGA-PPG
 	url = https://github.com/DN-GSI/NI-FPGA-PPG.git
+[submodule "Packages/CSPP_DebugDevices"]
+	path = Packages/CSPP_DebugDevices
+	url = https://github.com/DN-GSI/CSPP_DebugDevices.git
