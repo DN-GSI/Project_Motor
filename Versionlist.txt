@@ -1,3 +1,4 @@
 <1.0.1.0 - Testversions, not for use
 
 1.0.1.0 - First release version from 11.05.2016
+1.0.2.0 - Release version from 25.05.2016 for CaveA beamtime in may 2016
