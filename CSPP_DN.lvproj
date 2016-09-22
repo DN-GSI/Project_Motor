@@ -369,7 +369,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="Bld_previewCacheID" Type="Str">{44CB2BB8-6EA8-47CD-8DB6-841A08A0BD5C}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">CaveA_Motor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/CaveA_Motor/CaveA_Motor.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -378,7 +378,7 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="Destination[1].path" Type="Path">../builds/CaveA_Motor/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Utilities/Engine.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5F9F44EA-C97F-45B3-8DF1-C7C8635018FE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1F972A87-7FE5-401E-9E08-80C19AAD9D74}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CSPP_Core/CS++CoreContent.vi</Property>
@@ -398,65 +398,6 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 				<Property Name="TgtF_productName" Type="Str">CaveA_Motor</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5CB013FB-AD79-4DFD-BBB9-E676ADBCDEB7}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CaveA_Motor.exe</Property>
-			</Item>
-			<Item Name="DIMTest" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{A5F051E7-1851-4873-AD84-18750884B199}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{86BAA959-AACF-45FB-B420-D9212529B5F4}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{55392449-6711-47DB-9F23-73C26925BA96}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DIMTest</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/D/builds/DIMTest</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{4F16F86F-64A0-4977-B823-2CB724052F7D}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DIMTest.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/D/builds/DIMTest/DIMTest.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/D/builds/DIMTest/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5A3E8F5A-2104-4BCC-A321-61B8DA3EC236}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CSPP_Core/Actors/CS++StartActor.lvlib/Launch CS++StartActor.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/LVDimInterface.lvlib/supportFiles/libDimWrapper.dll</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/LVDimInterface.lvlib/supportFiles/myDimStd.dll</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/LVDimInterface.lvlib/supportFiles/libDimWrapperSPL.dll</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/LVDimInterface.lvlib/supportFiles/msvcp100.dll</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/LVDimInterface.lvlib/supportFiles/msvcr100.dll</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/LVDimInterface.lvlib/supportFiles/myDimSPL.dll</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Dependencies/Items in Memory/LVDimInterface.lvlib/public/common/LVDimInterface.dim_operate.vi</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
-				<Property Name="TgtF_companyName" Type="Str">GSI Helmholtzzentrum für Schwerionenforschung GmbH</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DIMTest</Property>
-				<Property Name="TgtF_internalName" Type="Str">DIMTest</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 GSI Helmholtzzentrum für Schwerionenforschung GmbH</Property>
-				<Property Name="TgtF_productName" Type="Str">DIMTest</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{40504731-9456-46F3-B6A4-6514B934C121}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DIMTest.exe</Property>
 			</Item>
 		</Item>
 	</Item>
